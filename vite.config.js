@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/Stakepool-Frontend/",
   plugins: [react()],
-  esolve: {
+  resolve: {
     alias: {
       "~": path.resolve(__dirname, "node_modules"),
       "@": path.resolve(__dirname, "src"),
