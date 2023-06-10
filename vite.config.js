@@ -6,7 +6,6 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        inlineDynamicImports: true,
         manualChunks: (id) => {
           if (id.includes("node_modules") && id.endsWith(".js")) {
             return "vendor";
