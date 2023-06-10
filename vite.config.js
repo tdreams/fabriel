@@ -6,13 +6,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: (id) => {
-          if (id.includes("node_modules") && id.endsWith(".js")) {
-            return "vendor";
-          }
-        },
+        inlineDynamicImports: true,
       },
     },
-    chunkSizeWarningLimit: 1600, // Adjust the chunk size warning limit as per your needs
+    chunkSizeWarningLimit: 5000, // Adjust the chunk size warning limit as per your needs
   },
 });
