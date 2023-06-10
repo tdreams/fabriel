@@ -91,7 +91,7 @@ const Header = () => {
             </nav>
             <div className="">
               <ul
-                className="ml-1 mt-8 flex items-center absolute lg:top-[40rem] xl:-bottom-[30vh]"
+                className="ml-1 mt-8 flex items-center absolute md:-bottom-[20vh] lg:top-[40rem] xl:-bottom-[30vh]"
                 aria-label="social media"
               >
                 <li className="mr-5 text-2xl">
