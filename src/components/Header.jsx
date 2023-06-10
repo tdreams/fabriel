@@ -54,7 +54,7 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row gap-10 text-left sm:align-baseline">
           <div>
             <img
-              src="/fabriel.jpg"
+              src="./fabriel.jpg"
               alt="Profile photo"
               className="rounded-full"
             />
