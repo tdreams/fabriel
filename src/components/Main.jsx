@@ -18,7 +18,7 @@ const Main = () => {
             About
           </h2>
         </div>
-        <div className="lg:relative">
+        <div className="lg:relative w-[55rem] ">
           <p className="mb-4">
             Passionate about technology, I've honed my skills in coding and web
             development during the COVID era. Now, my focus is on mastering

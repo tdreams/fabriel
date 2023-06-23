@@ -8,6 +8,7 @@ import ecommerce from "./e-commerce.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ShopCart from "./ShopCart.png";
 
 /* Techs */
 import css from "./tech/css.png";
@@ -27,6 +28,7 @@ export {
   ecommerce,
   carrent,
   jobit,
+  ShopCart,
   tripguide,
   css,
   figma,

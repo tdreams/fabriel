@@ -6,6 +6,7 @@ import {
   carrent,
   ecommerce,
   jobit,
+  ShopCart,
   tripguide,
   javascript,
   html,
@@ -142,10 +143,10 @@ const projects = [
   },
   {
     id: 2,
-    name: "Job IT",
-    web_url: "https://ecommerce-nine-ebon-99.vercel.app/",
+    name: "ShopCart",
+    web_url: "https://ecommerce-context-api-hackathon.vercel.app/",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that allows users to browse and purchase headphones and phones online. It provides a user-friendly interface where users can view various products, add them to the cart, and complete the checkout process.",
     tags: [
       {
         name: "react",
@@ -159,9 +160,14 @@ const projects = [
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ShopCart,
+    source_code_link:
+      "https://github.com/tdreams/ecommerce-context-API-hackathon",
   },
   {
     id: 3,
