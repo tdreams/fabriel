@@ -54,7 +54,11 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row gap-10 text-left sm:align-baseline">
           <div>
             <img
+<<<<<<< HEAD
               src="/fabriel.jpg"
+=======
+              src="./fabriel.jpg"
+>>>>>>> 2768591049974baf521c0d0ca7334e61fa07ef92
               alt="Profile photo"
               className="rounded-full"
             />
@@ -91,7 +95,11 @@ const Header = () => {
             </nav>
             <div className="">
               <ul
+<<<<<<< HEAD
                 className="ml-1 mt-8 flex items-center absolute lg:top-[40rem] xl:-bottom-[30vh]"
+=======
+                className="ml-1 mt-8 flex items-center absolute md:-bottom-[20vh] lg:top-[40rem] xl:-bottom-[30vh]"
+>>>>>>> 2768591049974baf521c0d0ca7334e61fa07ef92
                 aria-label="social media"
               >
                 <li className="mr-5 text-2xl">
