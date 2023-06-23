@@ -6,10 +6,6 @@ import {
   carrent,
   ecommerce,
   jobit,
-<<<<<<< HEAD
-  ShopCart,
-=======
->>>>>>> 2768591049974baf521c0d0ca7334e61fa07ef92
   tripguide,
   javascript,
   html,
@@ -19,6 +15,7 @@ import {
   nodejs,
   git,
   figma,
+  shopCart,
 } from "../assets";
 const technologies = [
   {
@@ -133,7 +130,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "React Context API",
+        name: "react-context-api",
         color: "green-text-gradient",
       },
       {
@@ -146,44 +143,28 @@ const projects = [
   },
   {
     id: 2,
-<<<<<<< HEAD
     name: "ShopCart",
     web_url: "https://ecommerce-context-api-hackathon.vercel.app/",
     description:
-      "Web application that allows users to browse and purchase headphones and phones online. It provides a user-friendly interface where users can view various products, add them to the cart, and complete the checkout process.",
-=======
-    name: "Job IT",
-    web_url: "https://ecommerce-nine-ebon-99.vercel.app/",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
->>>>>>> 2768591049974baf521c0d0ca7334e61fa07ef92
+      "Web application that enables users to browse and purchase headphones and phones.It provides a user-friendly interface where users can view various products, check deals, add them to the cart, and complete the checkout process. The app offers features such as cart management, and order placement",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
+
       {
-        name: "restapi",
+        name: "react-context-api",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-<<<<<<< HEAD
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: ShopCart,
+    image: shopCart,
     source_code_link:
       "https://github.com/tdreams/ecommerce-context-API-hackathon",
-=======
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
->>>>>>> 2768591049974baf521c0d0ca7334e61fa07ef92
   },
   {
     id: 3,
