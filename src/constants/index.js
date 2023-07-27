@@ -175,7 +175,7 @@ const projects = [
       "A user-friendly online photography service platform. It offers a wide range of professional photography services for weddings, family gatherings, corporate events, and milestone celebrations. With a focus on customer satisfaction and exceptional results, ShortNotice aims to preserve cherished memories with artistry and care.",
     tags: [
       {
-        name: "reactjs",
+        name: "NextJs",
         color: "blue-text-gradient",
       },
 
