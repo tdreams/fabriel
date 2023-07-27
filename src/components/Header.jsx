@@ -61,7 +61,7 @@ const Header = () => {
           </div>
           <div>
             <div className="text-4xl font-bold tracking-tight text-slate-200 sm:text-4xl">
-              Fabriel Mbeng
+              Fabriel M'beng
             </div>
             <div className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
               UX/UI Designer and Web Developer
