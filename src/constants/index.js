@@ -16,6 +16,7 @@ import {
   git,
   figma,
   shopCart,
+  shortnotice,
 } from "../assets";
 const technologies = [
   {
@@ -168,26 +169,23 @@ const projects = [
   },
   {
     id: 3,
-    name: "Trip Guide",
-    web_url: "https://ecommerce-nine-ebon-99.vercel.app/",
+    name: "ShortNotice",
+    web_url: "https://react-shortnotice.vercel.app/",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A user-friendly online photography service platform. It offers a wide range of professional photography services for weddings, family gatherings, corporate events, and milestone celebrations. With a focus on customer satisfaction and exceptional results, ShortNotice aims to preserve cherished memories with artistry and care.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
+
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shortnotice,
+    source_code_link: "https://github.com/tdreams/ShortNotice",
   },
 ];
 

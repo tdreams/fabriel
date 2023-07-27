@@ -7,6 +7,7 @@ import github from "./github.png";
 import ecommerce from "./e-commerce.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import shortnotice from "./shortnotice.png";
 import shopCart from "./ShopCart.png";
 import tripguide from "./tripguide.png";
 
@@ -28,6 +29,7 @@ export {
   ecommerce,
   carrent,
   jobit,
+  shortnotice,
   shopCart,
   tripguide,
   css,
