@@ -57,6 +57,8 @@ const Header = () => {
               src="/fabriel.jpg"
               alt="Profile photo"
               className="rounded-full"
+              width={300}
+              height={200}
             />
           </div>
           <div>
