@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Tech from "./Tech";
+import { fabriel } from "../assets";
 
 const Header = () => {
   const [activeSection, setActiveSection] = useState(null);
@@ -54,7 +55,7 @@ const Header = () => {
         <div className="flex flex-col lg:flex-row gap-10 text-left sm:align-baseline">
           <div>
             <img
-              src="/fabriel.jpg"
+              src={fabriel}
               alt="Profile photo"
               className="rounded-full"
               width={300}
